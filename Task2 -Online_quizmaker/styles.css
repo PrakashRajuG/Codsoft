@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://res.cloudinary.com/dfnwoctot/image/upload/v1714831719/2384069_rezjey.jpg);
+    background-size: 75%;
+
+.quiz-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #04031e;
+    border-radius: 5px;
+    background-color: rgba(22, 20, 20, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: red; /* Changed heading color to red */
+}
+
+.question-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: rgb(4, 8, 32); /* Changed question color to yellow */
+}
+
+.answer-buttons button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.next-button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
+.designer-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #0c0c0c;
+}
